@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +7,32 @@
   <meta name="keywords" content="tech, news, SEO, blogs, trending">
   <meta name="author" content="Anasify Tech">
   <title>Anasify Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="styles.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 font-sans">
-  <header class="bg-blue-900 text-white p-4">
-    <h1 class="text-3xl font-bold">Anasify Tech</h1>
-    <p class="text-sm">Your Source for Trending Tech News and Blogs</p>
+<body class="bg-gray-100 text-gray-900 font-sans transition-all duration-300">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-4 flex justify-between items-center">
+    <div>
+      <h1 class="text-3xl font-bold">Anasify Tech</h1>
+      <p class="text-sm">Your Source for Trending Tech News and Blogs</p>
+    </div>
+    <button id="darkModeToggle" class="p-2 bg-gray-200 text-gray-900 rounded">Dark Mode</button>
   </header>
 
+  <!-- Main Content -->
   <main class="container mx-auto p-4">
     <div id="posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <!-- Blog posts will be dynamically inserted here -->
     </div>
   </main>
 
-  <footer class="bg-blue-900 text-white p-4 mt-8">
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white p-4 mt-8 text-center">
     <p>&copy; 2025 Anasify Tech. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-    </html>
+</html>
