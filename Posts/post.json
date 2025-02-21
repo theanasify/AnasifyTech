@@ -1,1 +1,12 @@
-
+[
+  {
+    "title": "Top 10 Trending Tech Topics in 2025",
+    "description": "Discover the latest trends in technology for 2025.",
+    "link": "posts/top-10-trending-tech-topics-2025.html"
+  },
+  {
+    "title": "How AI is Transforming Industries",
+    "description": "Learn how AI is revolutionizing various industries.",
+    "link": "posts/how-ai-is-transforming-industries.html"
+  }
+]
